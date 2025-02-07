@@ -1,0 +1,14 @@
+node_modules
+.env
+dist
+.directory
+.idea/
+coverage/
+
+osrm/Montreal*
+!osrm/Montreal.osm.pbf
+
+cdk
+initial-state.dump
+*.http
+resources/test-data
