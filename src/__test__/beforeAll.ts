@@ -1,15 +1,14 @@
 import { beforeAll } from 'vitest'
 
 export let testUser = {
-    id: '',
-    name: ''
+  id: '',
+  name: '',
 }
 
 beforeAll(async () => {
-        testUser = {
-            id: '123',
-            name: 'Test User'
-        }
-        console.log('Before all setup complete')
-    }
-)
+  testUser = {
+    id: '123',
+    name: 'Test User',
+  }
+  console.log('Before all setup complete')
+})
