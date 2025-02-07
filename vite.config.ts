@@ -5,15 +5,15 @@ import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
-    resolve: {
-        alias: {
-            '@': resolve(__dirname, './src')
-        }
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, './src'),
     },
-    test: {
-        globals: true,
-        environment: 'node',
-        include: ['**/*.test.ts'],
-        setupFiles: ['./src/__tests__/setup.ts']
-    }
+  },
+  test: {
+    globals: true,
+    environment: 'node',
+    include: ['**/*.test.ts'],
+    setupFiles: ['./src/__test__/setup.ts'],
+  },
 })

@@ -1,3 +1,5 @@
 export async function setup() {
-    console.log('Setting up test database...')
+  console.log('Setting up test database...')
 }
+
+await setup()
