@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import request from 'supertest'
 import app from '../app.js'
-import { testUser } from '@/__tests__/beforeAll'
+import { testUser } from '@/__test__/beforeAll'
 
 describe('API Tests', () => {
   it('GET /health returns ok', async () => {
